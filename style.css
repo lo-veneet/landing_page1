@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%0;
+    height: 100%;
+    background-color:hsl(346deg, 17%, 70%);
+    display: flex;
+
+}
+#pag1{
+    height: 100%;
+   width: 26%;
+   /* background-color: cadetblue;  */
+
+}
+
+
+#page2{
+    height: 100%;
+   width: 64%;
+   background-color: greenyellow; 
+   background-image: url(https://images.unsplash.com/photo-1701743805074-497f68fb33b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8fA%3D%3D);
+ background-position: center;
+ background-size: cover;
+
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(97, 71, 135, 0.256);
+}
+#page3{
+    height: 100%;
+   width: 10%;
+   background-color:#dadada; 
+ 
+}
+.text{
+    position: absolute;
+    width: 400px;
+    /*background-color: red;
+    */left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+  
+}
+.text h1{
+   
+    font-size: 85px;
+    font-weight: 800;
+    color: #ffff;
+    letter-spacing: 8px;
+    line-height: 78px;
+    text-transform: uppercase;
+}
+
+
+.small-img{
+    width: 300px;
+    height: 400px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1702234711153-c4fa78c153c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+#verticle-text{
+    position: absolute;
+    /* overflow: hidden; */
+    transform:rotate(90deg) ;
+    right: -30%;
+    top: 2%;
+    transform-origin: 0% 0%;
+   
+}
+#verticle-text h1{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 25px;
+    color: crimson;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+
+}
+#nav{
+    position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 450px;
+left: 6%;
+top: 5%;
+}
+#nav img{
+height: 120px;
+
+}
+#nav h3{
+    font-size: 40px;
+    color: #ffff;
+    text-transform: uppercase;
+    
+}
